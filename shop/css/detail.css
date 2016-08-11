@@ -1,0 +1,191 @@
+.indexslider{width: 100%;height: 2.5rem;position: relative;margin-top: 0}
+.indexslider .swiper-slide,.swiper-wrapper{ height: 2.5rem; }
+.swiper-pagination-bullet-active { opacity: 1;  background: #1aa818 !important;}
+.swiper-slide img{width: 100%;height: 2.5rem;}
+.goods-info {
+    padding: .047rem;
+    background-color: #fff;
+}
+.goods-info .detail-title {
+    color: #000;
+    font-size: .065rem;
+    word-break: break-all;
+}
+.goods-info .detail-price {
+    display: -webkit-box;
+    display: flex;
+    color: #b3b3b3;
+}
+.goods-info .detail-price .price-l {
+    text-align: left;
+        display: block;
+    width: 100%;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+.goods-info .detail-price .price-l span {
+    color: #eb6100;
+    font-size: .07rem;
+    margin-right: 5px;
+}
+.goods-info .detail-price .price-l del {
+    font-size: .052rem;
+}
+del {
+    text-decoration: line-through;
+}
+.goods-normal .purchase-num {
+    height: .248rem;
+    display: -webkit-box;
+    display: flex;
+}
+.goods-normal .purchase-num .l-num {
+    -webkit-box-flex: 2;
+    flex: 2;
+    line-height: .248rem;
+    font-size: .056rem;
+    color: #999;
+    display: block;
+}
+.goods-normal .purchase-num .r-num {
+    -webkit-box-flex: 2;
+    flex: 2;
+    padding: .058rem .06rem .04rem 0;
+    display: block;
+    text-align: right;
+    margin-right: 1.5rem;
+}
+
+.quantity-components .num-opt {
+    display: inline-block;
+}
+.quantity-components .num-opt>div {
+    float: left;
+    text-align: center;
+}
+.quantity-components .increase, .quantity-components .decrease {
+    width: .14rem;
+    height: .14rem;
+    line-height: .14rem;
+    border: 1px solid #ccc;
+    font-size: 0.94rem;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+.quantity-components .num-display {
+    width: .14rem;
+    height: .14rem;
+    line-height: .14rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
+.quantity-components .unit {
+    position: absolute;
+    top: 50%;
+    right: -.1rem;
+    -webkit-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    margin-left: .025rem;
+    font-size: .07rem;
+}
+.goods-shop {
+    background-color: #fff;
+    margin-top: .165rem;
+}
+.list-pic .label-act {
+	
+    height: .6586rem;
+    padding-left: .11rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -o-box;
+    display: box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dfdfdf;
+}
+.list-pic .label-act>a {
+    width: 100%;
+    height: .281rem;
+    line-height: .206rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -o-box;
+    display: box;
+}
+.list-pic .label-act .ico {
+    width: .4rem;
+    height: .4rem;
+    margin: .06rem .026rem 0 0;
+}
+.list-pic .label-act>a>div {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-box-pack: center;
+    -o-box-pack: center;
+    box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    -o-box-align: center;
+    box-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -o-box;
+    display: box;
+}
+.list-pic .label-act .ico img {
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.list-pic .label-act .title {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-box-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    text-align: right;
+}
+.list-pic .label-act .shop-title {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    width: 80%;
+    height: .5rem;
+    color: #333;
+}
+.list-pic .label-act .shop-title span {
+    position: absolute;
+    width: 95%;
+    height: .24rem;
+    line-height: .24rem;
+    overflow: hidden;
+    text-align: left;
+    top: 0;
+    color: #b3b3b3;
+    font-size: .12rem;
+    
+    text-overflow: ellipsis;
+}
+.list-pic .label-act .shop-title .shop-rank {
+    position: absolute;
+    height: .24rem;
+    line-height: .24rem;
+    bottom: 0;
+}
+
+.list-pic .label-act .title h2 {
+    font-size: .14rem;
+    color: #b3b3b3;
+        font-weight: 400;
+        line-height: .6586rem;
+        padding: 0;
+        margin: 0;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>detail</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<link rel="stylesheet" href="css/detail.css">
+	<link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/public.css">
+	<link rel="stylesheet" type="text/css" href="./css/nav.css">
+	</head>
+	<body>
+	<section class="indexslider">
+		<div class="swiper-container">
+		  <div class="swiper-wrapper">
+		    <div class="swiper-slide"><img src="images/sliderbanner/1.jpg"></div>
+		    <div class="swiper-slide">	<img src="images/sliderbanner/2.jpg"></div>
+		    <div class="swiper-slide">	<img src="images/sliderbanner/3.jpg"></div>
+		    <div class="swiper-slide">	<img src="images/sliderbanner/4.jpg"></div>
+ 			  
+		  </div>
+		  <div class="swiper-pagination"></div>
+		</div>
+	</section>
+	<div class="goods-info ui-border-b goods-normal">
+    <p class="detail-title">
+       	（我的杂货铺）果然来了 惊爆价￥998
+    </p>
+    <p class="detail-desc">
+     
+    </p>
+    <div class="detail-price">
+        <div class="price-l">
+            <span>￥998.00</span>
+            <del>￥1998.00</del>
+        </div>       
+    </div>
+    <div class="purchase-num">
+         <div class="l-num">库存<span><span>799</span>件</span></div>
+         <div class="r-num quantity-components">
+         	<div class="num-opt">
+              <div class="decrease">-</div>
+              <div class="num-display"><input type="text" id="quantity" class="amount-input" value="1" maxlength="8" name="" style="display:block;width:100%;height:100%;"></div>
+              <div class="increase">+</div>
+              <span class="unit">件</span>
+             </div>
+         </div>
+     </div>
+</div>
+<div class="goods-shop list-pic">
+        <div class="label-act ui-border-b" >
+            <a>
+                <div class="ico"><img src="images/icon/store_index.png"></div>
+                <div class="title">
+                    <div class="shop-title">
+                        <span>我的杂货铺</span>
+                        <p class="shop-rank">                 		                        		                        			                        		                        		
+						<img src="images/icon/start.jpg">
+	                     </p>
+                    </div>
+                    <h2>进入店铺</h2>
+                </div>
+                <div class="arrow"></div>
+            </a>
+        </div>
+    </div>
+	<script src="js/swiper-3.3.1.min.js"></script>
+	<script> 
+	var mySwiper = new Swiper('.swiper-container', {
+		autoplay: 5000,//可选选项，自动滑动
+		pagination : '.swiper-pagination',
+		paginationHide :true,
+		loop : true,
+
+	})
+	</script>
+	</body>
+</html>
