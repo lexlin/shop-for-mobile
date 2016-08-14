@@ -1,4 +1,8 @@
-.indexslider{width: 100%;height: 2.5rem;position: relative;margin-top: 0}
+.detail-header{width: 100%;height: .5rem; color: #FFFFFF; line-height: .5rem; font-size: .2rem;z-index: 999; position: fixed;top: 0; box-sizing: border-box;padding-left: .15rem;
+padding-right: .15rem;}
+.detail-header .r-li,.detail-header .l-li{ margin-top:.1rem;width: .35rem; text-align:center;height: .35rem;line-height: .35rem; border-radius: 50%; background-color: rgba(0,0,0,.4);}
+
+.indexslider{width: 100%;height: 2.5rem;position: relative;margin-top: 0;z-index: 99;}
 .indexslider .swiper-slide,.swiper-wrapper{ height: 2.5rem; }
 .swiper-pagination-bullet-active { opacity: 1;  background: #1fa67a !important;}
 .swiper-slide img{width: 100%;height: 2.5rem;}
@@ -90,7 +94,7 @@ position: relative;
 .quantity-components .unit {
     position: absolute;
     top: 50%;
-    right: -.3rem;
+    right: -.2rem;
     -webkit-transform: translate(0,-50%);
     transform: translate(0,-50%);
     margin-left: .025rem;
@@ -155,6 +159,7 @@ position: relative;
     overflow: hidden;
 }
 .list-pic .label-act .title {
+    box-sizing:border-box;
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
     -ms-box-flex: 1;
@@ -166,7 +171,7 @@ position: relative;
     position: relative;
     display: -webkit-box;
     display: flex;
-    width: 80%;
+    width: 70%;
     height: .5rem;
     color: #333;
 }
@@ -191,11 +196,19 @@ position: relative;
 }
 
 .list-pic .label-act .title h2 {
-    font-size: .14rem;
-    color: #b3b3b3;
+        font-size: .14rem;
+        color: #b3b3b3;
         font-weight: 400;
         line-height: .6586rem;
-        padding: 0;
+        padding-right: .05rem;
+        margin: 0;
+}
+.list-pic .label-act .title h2 i {
+        font-size: .2rem;
+        color: #b3b3b3;
+        font-weight: 400;
+        line-height: .6586rem;
+        padding-left: .05rem;
         margin: 0;
 }
 .tap-main{
@@ -243,6 +256,7 @@ position: relative;
 }
 .tap-main .fr-show,.tap-main .fl-show{
 	width: 100%;
+	margin-bottom: .7rem;
 	margin-top: .1rem;
 	box-sizing: border-box;
 	background-color: #fff;

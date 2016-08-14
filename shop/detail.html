@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<title>detail</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
-<link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/detail.css">
 	<link rel="stylesheet" href="css/swiper-3.3.1.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/public.css">
@@ -13,6 +13,10 @@
 	<script src="js/fastclick.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
+		<header class="detail-header">
+			<li class="fl l-li"onclick="javascript :history.back(-1);"><i class="fa fa-angle-left"></i></li>
+			<li class="fr r-li"><i class="fa fa-ellipsis-h"></i></li>
+		</header>
 	<section class="indexslider">
 		<div class="swiper-container">
 		  <div class="swiper-wrapper">
@@ -29,9 +33,7 @@
     <p class="detail-title">
        	（我的杂货铺）果然来了 惊爆价￥998
     </p>
-    <p class="detail-desc">
-     
-    </p>
+ 
     <div class="detail-price">
         <div class="price-l">
             <span>￥998.00</span>
@@ -67,7 +69,7 @@
 							<!-- <img src="images/icon/start.jpg"> -->
 		                </p>
                     </div>
-                    <h2>进入店铺</h2>
+                    <h2>进入店铺<i class="fa fa-angle-right"></i></h2>
                 </div>
                 <div class="arrow"></div>
             </a>
@@ -77,7 +79,6 @@
     <ul>
     	<li class="tap-l  fs14 on">图文详情</li>
     	<li class="tap-r  fs14">产品参数</li>
-    	
     </ul>
     <div class="fl-show">
     	<p class="product-title">图文详情</p>
