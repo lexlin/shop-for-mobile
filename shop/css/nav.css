@@ -2,13 +2,13 @@
 #nav{position: fixed; bottom: 0; left: 0; width: 100%; background-color: #fafafa;z-index: 999;}
 #nav .navlist li{width: 25%;height: .5rem;float: left;}
 #nav .navlist li a{width: 100%;height: .5rem;display: block; text-align: center;}
-#nav .navlist li a span{width: .5rem;height: .5rem;background: url('../images/icon/icon.png') no-repeat 0 -.46rem; background-size: 2.14rem auto; display: inline-block;}
+#nav .navlist li a span{width: .5rem;height: .5rem; line-height: .5rem; display: inline-block; color: #999;font-size: .25rem;}
 a{text-decoration: none}
-#nav .navlist #n_1 a span{background-position:  0 -.46rem;}
+/* #nav .navlist #n_1 a span{background-position:  0 -.46rem;}
 #nav .navlist #n_2 a span{background-position: -.5rem -.46rem;}
 #nav .navlist #n_3 a span{background-position: -1.6rem -.46rem;}
-#nav .navlist #n_4 a span{background-position: -1rem -.46rem;}
-#nav .navlist #n_1 a span.active{background-position: 0 -0;}
-#nav .navlist #n_2 a span.active{background-position: -.5rem -.02rem;}
+#nav .navlist #n_4 a span{background-position: -1rem -.46rem;} */
+#nav .navlist  li a span.active{color: #1fa67a;}
+/* #nav .navlist #n_2 a span.active{background-position: -.5rem -.02rem;}
 #nav .navlist #n_3 a span.active{background-position: -1.6rem -.02rem;}
-#nav .navlist #n_4 a span.active{background-position: -1rem -.02rem;}
+#nav .navlist #n_4 a span.active{background-position: -1rem -.02rem;} */

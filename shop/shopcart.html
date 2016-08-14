@@ -4,6 +4,7 @@
 	<title>shoppingcart</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome.min.css"/>
 	<link rel="stylesheet" type="text/css" href="./css/shoppingcart.css">
 	<link rel="stylesheet" type="text/css" href="./css/public.css">
 	<link rel="stylesheet" type="text/css" href="./css/nav.css">
@@ -12,11 +13,12 @@
 </head>
 <body>
 	<header id="cart">
+	<i class="fa fa-shopping-cart" style="font-size:.2rem; padding-right:.05rem"></i>
 		购物车
 	</header>
 	<section class="main">
 		  <div class="null_shopping" style="display:none;">
-                <div class="cart_pic"></div>
+                <div class="cart_pic"><i class="fa fa-cart-arrow-down" style="font-size:1rem;"></i></div>
                 <h4>您还没有宝贝，赶快去逛逛吧！</h4>
                 <p>
                     <a class="enter" href="index.html">马上去逛逛</a>
@@ -44,7 +46,7 @@
 					<span class="fs14 xiaoji">小计</span>
 					<div class="buyxiaoji">
 					<span class="total green bfs16">￥200</span>
-					<span class="del"></span>
+					<span class="del"><i class="fa fa-trash-o"></i></span>
 					</div>
 				</div>
 			</li>
@@ -69,7 +71,7 @@
 					<span class="fs14 xiaoji">小计</span>
 					<div class="buyxiaoji">
 					<span class="total green bfs16">￥200</span>
-					<span class="del"></span>
+					<span class="del"><i class="fa fa-trash-o"></i></span>
 					</div>
 				</div>
 			</li>
@@ -94,7 +96,7 @@
 					<span class="fs14 xiaoji">小计</span>
 					<div class="buyxiaoji">
 					<span class="total green bfs16">￥200</span>
-					<span class="del"></span>
+					<span class="del"><i class="fa fa-trash-o"></i></span>
 					</div>
 				</div>
 			</li>
@@ -119,23 +121,23 @@
 					<span class="fs14 xiaoji">小计</span>
 					<div class="buyxiaoji">
 					<span class="total green bfs16">￥200</span>
-					<span class="del"></span>
+					<span class="del"><i class="fa fa-trash-o"></i></span>
 					</div>
 				</div>
 			</li>
 		</ul>
 	</section>
 	<section class="onthebottom">
-	    <div class="clearcart">清空</div>
+	    <div class="clearcart"><i class="fa fa-trash-o" style="font-size:.2rem; padding-right:.05rem"></i>清空</div>
 	    <div class="totalprice">总价：<span class="green">￥200000</span></div>
-	    <div class="jiesuanbtn" onclick="javascript:void(window.location.href='orderlist.html')">结算</div>
+	    <div class="jiesuanbtn" >结算</div>
 	</section>
 	<footer id="nav">
 		<ul class="navlist">
-			<li id="n_1"><a href="index.html"><span></span></a></li>
-			<li id="n_2"><a href="shopcart.html"><span class="active"></span></a></li>
-			<li id="n_3"><a href="me.html"> <span></span></a></li>
-			<li id="n_4"><a href="productlist.html"><span></span></a></li>
+			<li id="n_1"><a href="index.html"><span><i class="fa fa-home"></i></span></a></li>
+			<li id="n_2"><a href="shopcart.html"><span class="active"><i class="fa fa-shopping-cart"></i></span></a></li>
+			<li id="n_3"><a href="me.html"> <span><i class="fa fa-user fa-fw"></i></span></a></li>
+			<li id="n_4"><a href="productlist.html"><span><i class="fa fa-list-ul"></i></span></a></li>
 		</ul>
 	</footer>
 	<script type="text/javascript">
