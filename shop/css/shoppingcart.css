@@ -9,13 +9,13 @@ header{padding: 0;margin: 0;}
 .itemTitle .itemName{line-height: .5rem; height: .5rem; display: inline-block; color: #666; }
 .itemQty{ border-bottom: .01rem dashed #e7e7e7;padding-bottom: .05rem;}
 .itemQty:after{	content:"";	clear: both;display: block;}
-.itemQty .reduce,.itemQty .plus{width: .35rem;height: .25rem;display: block; float: left; border: .01rem solid #ccc; cursor: pointer;}
-.itemQty .reduce{background: url('../images/reduce.gif') center no-repeat;  border-right: none;}
-.itemQty .plus{background: url('../images/add.gif') center no-repeat;  border-left: none;}
+.itemQty .reduce,.itemQty .plus{width: .35rem;height: .25rem; line-height.25rem; text-align:center; font-size:.18rem;display: block; float: left; border: .01rem solid #ccc; cursor: pointer;}
+.itemQty .reduce{ border-right: none;}
+.itemQty .plus{ border-left: none;}
 .buynuminput{float: left; margin: .12rem 0 0 .15rem;}
 .itemQty .qtyname{display: inline-block; margin: .15rem .1rem 0 .2rem;float: left;}
 .itemQty .inp{width: .8rem;height: .25rem; float: left;} 
-.itemQty .inp input{border:.01rem solid #ccc; text-align: center; width: .8rem;height: .25rem;font-weight: 800; border-radius: 0;} 
+.itemQty .inp input{border:.01rem solid #ccc; text-align: center; width: .8rem;height: .25rem;font-weight: 800; border-radius: 0; box-shadow: none;} 
 .itemPrice{margin-bottom: .1rem; padding-bottom: .1rem;padding-top: .1rem;   display: block; border-bottom: .01rem dashed #e7e7e7;}
 .itemPrice:after{content:"";	clear: both;display: block;}
 .buyxiaoji{    margin: .12rem 0 0 .15rem; float: left;}
