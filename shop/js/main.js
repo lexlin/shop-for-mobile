@@ -1,8 +1,19 @@
-//shopcart.js
 $(function() {
     FastClick.attach(document.body);
     
 });
+//index.js
+$('.photos').on('click', function(){
+//alert($('#sub-title').hasClass('on-block rollIn '))
+	if ($('#sub-title').hasClass('rollIn')) {
+		$('#sub-title').addClass('rollOut').removeClass('rollIn');
+	}else{
+		$('#sub-title').addClass('on-block rollIn').removeClass('rollOut');
+	}
+
+});
+//shopcart.js
+
 $('.plus').on('click', plus);
 $('.reduce').on('click', reduce);
 
@@ -65,6 +76,5 @@ $('#collectDiv').on('click', function(){
 		$(this).children('i').addClass('fa-star-o').removeClass('fa-star');
 		
 	}
-//	$(this).children('i').addClass('fa-star').removeClass('fa-star-o');
-//	$(this).children('i').toggleClass("fa-star").removeClass('fa-star-o')
+
 });

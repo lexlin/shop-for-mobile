@@ -9,6 +9,10 @@
 	<link rel="stylesheet" href="./css/productlist.css">
 	<link rel="stylesheet" type="text/css" href="./css/public.css">
 	<link rel="stylesheet" type="text/css" href="./css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+	
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/fastclick.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 	<header id="header">
@@ -21,11 +25,17 @@
 	  <div class="photos">
 	      <i class="fa fa-navicon"></i>
 	  </div>
+	<ul class="nav-more-list animated" id="sub-title" >
+		<li><a class="nav-more-icon" href="index.html"><i class="fa fa-home fa-2x"></i><span>首页</span></a></li>
+		<li><a class="nav-more-icon" href="shopcart.html"><i class="fa fa-shopping-cart fa-2x"></i><span>购物车</span></a></li>
+		<li><a class="nav-more-icon" href="me.html"><i class="fa fa-user fa-2x"></i><span>个人中心</span></a></li>
+		<li><a class="nav-more-icon" href="#"><i class="fa fa-commenting-o fa-2x"></i><b id="msgFlag" class=""></b><span>我的消息</span></a></li>
+	</ul>
 	</header>	
 	<section class="product">
 		<ul>
 			<li class="new">
-				<a href="">
+				<a href="detail.html">
 				<div class="top new_p"></div>
 				<span class="shuxing" >新品</span>
 					<div class="fl primg" ><img src="images/product/33.jpg"></div>
@@ -37,7 +47,7 @@
 				</a>
 			</li>
 			<li class="hot">
-				<a href="">
+				<a href="detail.html">
 				<div class="top hot_p"></div>
 				<span class="shuxing " >热销</span>
 					<div class="fl primg"><img src="images/product/33.jpg"></div>
@@ -49,7 +59,7 @@
 				</a>
 			</li>
 			<li class="recommend ">
-				<a href="">
+				<a href="detail.html">
 				<div class="top re_p"></div>
 				<span class="shuxing" >推荐</span>
 					<div class="fl primg"><img src="images/product/33.jpg"></div>
@@ -61,7 +71,7 @@
 				</a>
 			</li>
 			<li class="new">
-				<a href="">
+				<a href="detail.html">
 				<div class="top"></div>
 				<span class="shuxing" >新品</span>
 					<div class="fl primg" ><img src="images/product/33.jpg"></div>
@@ -73,7 +83,7 @@
 				</a>
 			</li>
 			<li class="hot">
-				<a href="">
+				<a href="detail.html">
 				<div class="top"></div>
 				<span class="shuxing" >热销</span>
 					<div class="fl primg"><img src="images/product/33.jpg"></div>
@@ -85,7 +95,7 @@
 				</a>
 			</li>
 			<li class="recommend ">
-				<a href="">
+				<a href="detail.html">
 				<div class="top"></div>
 				<span class="shuxing" >推荐</span>
 					<div class="fl primg"><img src="images/product/33.jpg"></div>
@@ -106,6 +116,8 @@
 			<li><a href="productlist.html"  class="active"><i class="fa fa-list-ul"></i><span>全部</span></a></li>
 		</ul>
 	</footer>
+<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	
 </body>
 
 </html>
