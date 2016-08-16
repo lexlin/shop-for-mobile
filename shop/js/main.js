@@ -78,3 +78,13 @@ $('#collectDiv').on('click', function(){
 	}
 
 });
+//me.js
+$('.setting').on('click', function(){
+//alert($('#sub-title').hasClass('on-block rollIn '))
+//	if ($('#sub-title').hasClass('rollIn')) {
+//		$('#sub-title').addClass('rollOut').removeClass('rollIn');
+//	}else{
+//		$('#sub-title').addClass('on-block rollIn').removeClass('rollOut');
+//	}
+$('#sub-title').toggleClass('bounceInDown on-block');
+});
