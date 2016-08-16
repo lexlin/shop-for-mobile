@@ -1,7 +1,7 @@
 $(function() {
     FastClick.attach(document.body);
     
-});
+});	
 //index.js
 $('.photos').on('click', function(){
 //alert($('#sub-title').hasClass('on-block rollIn '))
@@ -18,8 +18,16 @@ $('.plus').on('click', plus);
 $('.reduce').on('click', reduce);
 
 $('.del').on('click', function(){
+//	confirm('你真的打算删除吗？',function(name) {
+//		alert(name);
+//		
+//	})
+
 	$(this).parents('li').remove()
+
+//	
 });
+
 $('.clearcart').on('click', function(){
 
 //	$('.cartlist').find('li').each(function(){
@@ -28,6 +36,8 @@ $('.clearcart').on('click', function(){
 
 $('.cartlist').children().remove();
 $('.null_shopping').show();
+
+
 
 });
 
