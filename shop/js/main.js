@@ -86,5 +86,5 @@ $('.setting').on('click', function(){
 //	}else{
 //		$('#sub-title').addClass('on-block rollIn').removeClass('rollOut');
 //	}
-$('#sub-title').toggleClass('bounceInDown on-block');
+$('#sub-title').toggleClass('bounceInDown o');
 });
