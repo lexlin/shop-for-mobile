@@ -10,7 +10,6 @@
 	<link rel="stylesheet" type="text/css" href="./css/public.css">
 	<link rel="stylesheet" type="text/css" href="./css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
-	
 	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 	<script src="js/fastclick.js" type="text/javascript" charset="utf-8"></script>
 </head>
@@ -38,7 +37,7 @@
 				<a href="detail.html">
 				<div class="top new_p"></div>
 				<span class="shuxing" >新品</span>
-					<div class="fl primg" ><img src="images/product/33.jpg"></div>
+					<div class="fl primg" ><img src="images/load.jpg" class="lazy"  data-original="images/product/33.jpg"></div>
 					<div class="fr prcontent">
 					<p class="title pl10">标题标题</p>
 					<p class="content pl10">这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容</p>
@@ -50,7 +49,7 @@
 				<a href="detail.html">
 				<div class="top hot_p"></div>
 				<span class="shuxing " >热销</span>
-					<div class="fl primg"><img src="images/product/33.jpg"></div>
+					<div class="fl primg"><img src="images/load.jpg" class="lazy"  data-original="images/product/33.jpg"></div>
 					<div class="fr prcontent">
 						<p class="title pl10">标题标题</p>
 						<p class="content pl10">这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容</p>
@@ -62,7 +61,7 @@
 				<a href="detail.html">
 				<div class="top re_p"></div>
 				<span class="shuxing" >推荐</span>
-					<div class="fl primg"><img src="images/product/33.jpg"></div>
+					<div class="fl primg"><img src="images/load.jpg" class="lazy"  data-original="images/product/33.jpg"></div>
 					<div class="fr prcontent">
 						<p class="title pl10">标题标题</p>
 						<p class="content pl10">这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容</p>
@@ -74,7 +73,7 @@
 				<a href="detail.html">
 				<div class="top"></div>
 				<span class="shuxing" >新品</span>
-					<div class="fl primg" ><img src="images/product/33.jpg"></div>
+					<div class="fl primg" ><img src="images/load.jpg" class="lazy"  data-original="images/product/33.jpg"></div>
 					<div class="fr prcontent">
 					<p class="title pl10">标题标题</p>
 					<p class="content pl10">简介这里简介这里简介这里简介这里简介这里简介这里简介这里简介介这里简介</p>
@@ -86,7 +85,19 @@
 				<a href="detail.html">
 				<div class="top"></div>
 				<span class="shuxing" >热销</span>
-					<div class="fl primg"><img src="images/product/33.jpg"></div>
+					<div class="fl primg"><img src="images/load.jpg" class="lazy"  data-original="images/product/33.jpg"></div>
+					<div class="fr prcontent">
+						<p class="title pl10">标题标题</p>
+						<p class="content pl10">这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容</p>
+						<p class="price pl10">价格：<span class="money">222</span></p>
+					</div>
+				</a>
+			</li>
+			<li class="hot">
+				<a href="detail.html">
+				<div class="top"></div>
+				<span class="shuxing" >热销</span>
+					<div class="fl primg"><img src="images/load.jpg" class="lazy"  data-original="images/product/33.jpg"></div>
 					<div class="fr prcontent">
 						<p class="title pl10">标题标题</p>
 						<p class="content pl10">这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容</p>
@@ -98,7 +109,19 @@
 				<a href="detail.html">
 				<div class="top"></div>
 				<span class="shuxing" >推荐</span>
-					<div class="fl primg"><img src="images/product/33.jpg"></div>
+					<div class="fl primg"><img src="images/load.jpg" class="lazy"  data-original="images/product/33.jpg"></div>
+					<div class="fr prcontent">
+						<p class="title pl10">标题标题</p>
+						<p class="content pl10">这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容</p>
+						<p class="price pl10">价格：<span class="money">222</span></p>
+					</div>
+				</a>
+			</li>
+			<li class="hot">
+				<a href="detail.html">
+				<div class="top"></div>
+				<span class="shuxing" >热销</span>
+					<div class="fl primg"><img src="images/load.jpg" class="lazy"  data-original="images/product/33.jpg"></div>
 					<div class="fr prcontent">
 						<p class="title pl10">标题标题</p>
 						<p class="content pl10">这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容</p>
@@ -117,7 +140,15 @@
 		</ul>
 	</footer>
 <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
-	
+<script src="js/jquery.lazyload.min.js"></script>
+
+	<script type="text/javascript">
+		$(function() {
+		$("img.lazy").lazyload({
+		 effect : "fadeIn",
+		});
+		});
+	</script>
 </body>
 
 </html>
