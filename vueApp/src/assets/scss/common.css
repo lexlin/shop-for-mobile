@@ -1,0 +1,42 @@
+html{font-size: 625%}
+body{padding: 0;margin: 0; font-family: "Microsoft YaHei";font-size: .12rem;color: #444;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);background-color: #f6f6f6;}   
+ul,li{list-style: none;padding: 0;margin: 0;}   
+p,input{margin: 0;padding: 0; border:0;}
+.pl10{padding-left: .1rem;}
+.ml10{margin-left: .1rem;}
+.pl5{padding-left: .05rem;}
+.pr5{padding-right: .05rem;}
+.pr10{padding-right:.1rem;}
+.fs12{font-size: .12rem}
+.fs14{font-size: .14rem}
+.fs16{font-size: .16rem}
+.fs18{font-size: .18rem}
+.bfs12{font-size: .12rem;font-weight: bold;}
+.bfs14{font-size: .14rem;font-weight: bold;}
+.bfs16{font-size: .16rem;font-weight: bold;}
+.bfs18{font-size: .18rem;font-weight: bold;}
+.fr{float: right;}
+.fl{float: left;}
+.green{color: #1fa67a}
+.yellow{color: #f3bc26;}
+.orange{color: #ed7046;}
+.bule{color: #89bedf;}
+.duckgreen{color: #9ec74e;}
+.zise{color: #d37dd8;}
+a{text-decoration: none}
+-webkit-user-select: none;
+.navlist{position: relative;height: .5rem;border-bottom: solid .01rem #B3B3B3;box-shadow: 0 .01rem .01rem 0 #DFDFDF;}
+#nav{position: fixed; bottom: 0; left: 0; width: 100%; background-color: #fafafa;z-index: 999;}
+#nav .navlist li{width: 25%;height: .5rem;float: left; box-sizing:border-box;}
+#nav .navlist li a{width: 100%;height: .5rem;display: block; text-align: center;color: #999;}
+/* #nav .navlist li a span{width: .5rem;height: .5rem; line-height: .5rem; display: inline-block; color: #999;font-size: .25rem;} */
+a{text-decoration: none}
+#nav .navlist  li a i{width: 100%;height: .3rem;line-height: .3rem;font-size: .25rem; padding-top: .02rem;}
+#nav .navlist  li a.active{color: #1fa67a;}
+#nav .navlist  li a span{width: 100%;height: .15rem; display: block;line-height: .15rem;font-size: .1rem;}
+/* header */
+#header{width: 100%;height: .5rem; position: fixed;top: 0;left: 0;background: #1fa67a; opacity: .9; display: flex; z-index: 999;  display: -ms-flexbox; display: -webkit-flex;  display: flex;}
+.voice,.photos{width: .6rem;height: .5rem; line-height: .5rem;text-align: center; color: #fff; font-size: .25rem; cursor: pointer;}
+.search{ width: 100%;}
+.search input{margin-top:.1rem;-webkit-box-flex: 1; -moz-box-flex: 1; width: 20%;  -webkit-flex: 1;-ms-flex: 1; flex: 1;border-radius: .1rem;width: 100%;height: .3rem;font-size: .16rem;line-height: .3rem;text-align: center;overflow: hidden;}
+

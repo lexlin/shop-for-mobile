@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Vue App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <link rel="stylesheet" href="/dist/style.css">
+    <link rel="stylesheet" type="text/css" href="../src/assets/font-awesome-4.5.0/css/font-awesome.min.css"/>    
+    <link rel="stylesheet" type="text/css" href="../src/assets/scss/swiper-3.3.1.min.css"/>     
+</head>
+
+<body>
+    <div id="app">
+ 
+        <header id="header" v-if="$route.name==='home'||$route.name==='sort'">
+      <div class="voice">
+       <i class="fa fa-commenting-o"></i>
+      </div>
+      <div class="search">
+       <input type="text" placeholder="请输入关键字">   
+      </div>
+      <div class="photos">
+          <i class="fa fa-navicon"></i>
+      </div>
+
+    </header>
+        <router-view></router-view>
+    <footer id="nav">
+        <ul class="navlist">
+            <li>
+            <a v-link="{ path: '/' }" class="active" v-if="$route.name==='home'"><i class="fa fa-home"></i><span>首页</span></a>
+            <a v-link="{ path: '/' }" v-else><i class="fa fa-home"></i><span>首页</span></a>
+            </li>
+            <li>
+            <a v-link="{ path: '/cart' }" class="active" v-if="$route.name==='cart'"><i class="fa fa-shopping-cart"></i><span>购物车</span></a>
+            <a v-link="{ path: '/cart' }" v-else><i class="fa fa-shopping-cart"></i><span>购物车</span></a>
+            </li>
+            <li>
+            <a v-link="{ path: '/me' }" class="active" v-if="$route.name==='me'"> <i class="fa fa-user fa-fw"></i><span>我的</span></a>
+            <a v-link="{ path: '/me' }" v-else> <i class="fa fa-user fa-fw"></i><span>我的</span></a>
+            </li>
+            <li>
+            <a v-link="{ path: '/sort' }" class="active" v-if="$route.name==='sort'"><i class="fa fa-list-ul"></i><span>全部</span></a>
+            <a v-link="{ path: '/sort' }" v-else><i class="fa fa-list-ul"></i><span>全部</span></a>
+            </li>
+        </ul>
+    </footer>
+    </div>
+    <script src="/dist/common.js"></script>
+ 
+    <script src="../src/assets/swiper-3.3.1.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            autoplay: 5000,//可选选项，自动滑动
+            pagination : '.swiper-pagination',
+            paginationType : 'progress',
+            loop : true,
+        })
+    </script>
+
+    <script src="/dist/build.js"></script>
+</body>
+
+</html>
